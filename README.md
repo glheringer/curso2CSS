@@ -59,7 +59,7 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
     td : (table data)
     
  ### Estrutura básica no HTML:
-    ```bash
+  
       <table>
         <thead>
             <tr>
@@ -71,7 +71,7 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
         <tbody></tbody>
         <tfoot></tfoot>
     </table>
-    ```
+   
   
 Colspan —> Mescla linhas
 Rowspan —> Mescla colunas 
