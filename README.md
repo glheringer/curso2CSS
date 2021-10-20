@@ -52,15 +52,15 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
 ```
 ------------------------------------------
 ### Criando Tabelas
- Inicializada com a tag <table> e e struturada em Caption (cabeçalho), thead, tbody e tfood. No "thead" são adicionadas linhas <tr> e dentro das linhas são adicionadas colunas <th>, para a criação de colunas na tabela. Para adicionar dados na tabela usamos o <td>.
+ Inicializada com a tag `<table> `e e struturada em Caption (cabeçalho), thead, tbody e tfood. No "thead" são adicionadas linhas `<tr>` e dentro das linhas são adicionadas colunas `<th> `, para a criação de colunas na tabela. Para adicionar dados na tabela usamos o `<td>`.
   **Legenda**
     tr:  (table rows) 
     th:  (table height) 
     td : (table data)
     
  ### Estrutura básica no HTML:
-  
-      <table>
+    ``` HTML
+          <table>
         <thead>
             <tr>
                 <th> </th>
@@ -71,8 +71,7 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
         <tbody></tbody>
         <tfoot></tfoot>
     </table>
-   
-  
+     ```
 Colspan —> Mescla linhas
 Rowspan —> Mescla colunas 
 
