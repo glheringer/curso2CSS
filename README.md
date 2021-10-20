@@ -74,5 +74,8 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
      ```
 Colspan —> Mescla colunas
 Rowspan —> Mescla linhas
-
+------------------------------------------
 ## CSS
+
+###
+
