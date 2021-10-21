@@ -82,11 +82,25 @@ O `display` define um layout para o seu CSS.
 
 - **Opçoes de Display:**
 - `display : block;`
-Difine o alinhamento dos itens do container em bloco, um sobre o outro verticalmente.
+Define o alinhamento dos itens do container em bloco, um sobre o outro verticalmente.
 - `display : inline;`
+Define o alinhamento dos itens do conteiner de forma que possam ficar lado a lado.
 - `display : hidden;`
 Altera a visibilidade do container, mas ainda deixa o espaço alocado por ele, ocultando apenas os itens do container. Usado juntamente do JS para menu de seleção, caso um item seja selecionado exibe-se o conteúdo de hidden.
 - `display : none;`
 Diferente do `display: hidden`, este tipo de display oculta também o espaço alocado pelo container.
+------------------------------------------
 - **`display : flex;`**
+Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
+------------------------------------------
+- flex-direction:
+    - flex-direction: row;
+    // Os itens ficam em linha
+    - flex-direction: row-reverse;
+    // Os itens ficam em linha reversa, ou      seja 3, 2, 1.
+    -  flex-direction: column;
+    // Os itens ficam em uma única coluna,      um embaixo do outro.
+    - flex-direction: column-reverse;
+    // Os itens ficam em uma única coluna,      um embaixo do outro, porém em ordem         reversa: 3, 2 e 1.
+------------------------------------------
 - **`display : grid;`**
