@@ -82,8 +82,11 @@ O `display` define um layout para o seu CSS.
 
 - **Opçoes de Display:**
 - `display : block;`
+Difine o alinhamento dos itens do container em bloco, um sobre o outro verticalmente.
 - `display : inline;`
 - `display : hidden;`
+Altera a visibilidade do container, mas ainda deixa o espaço alocado por ele, ocultando apenas os itens do container. Usado juntamente do JS para menu de seleção, caso um item seja selecionado exibe-se o conteúdo de hidden.
 - `display : none;`
+Diferente do `display: hidden`, este tipo de display oculta também o espaço alocado pelo container.
 - **`display : flex;`**
 - **`display : grid;`**
