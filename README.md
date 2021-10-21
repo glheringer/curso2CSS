@@ -129,5 +129,28 @@ grid-template-areas:
   "main sidebar"
    "footer footer";
    ```
-   
-   
+------------------------------------------
+## JavaScript
+    Iniciar com uma tag script no HTML, essa tag precisa de um início `<script>` e um fim `</script>`, ou criar uma pagina .js externa e apenas importá-la usando uma anchor na tag script criada.
+------------------------------------------
+
+### Objeto
+Um objeto é qualquer coisa que represente algo mais complexo que os tipos primitivos, os objetos tem os seus próprios dados.
+------------------------------------------
+
+### Condicional IF
+- Estrutura:
+``` bash
+    if(var === conditional &&  var=== conditional2 || var === conditional 3 ) 
+    {
+        //faça alguma coisa
+    }
+    else{
+        //senão faça isso
+    }
+```
+&& = "e"
+|| = "ou"
+------------------------------------------
+
+
