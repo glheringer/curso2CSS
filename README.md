@@ -152,5 +152,22 @@ Um objeto é qualquer coisa que represente algo mais complexo que os tipos primi
 && = "e"
 || = "ou"
 ------------------------------------------
+### DOM
+Document Object Model, o HTML funciona em uma estrutura de árvore e uma dessas estruturas mais básica é a classse Document que é derivada da `window.document` e da documente se deriva `document.head`, `document.body` entre outras...
+### Events 
+Capturar eventos que acontecem na página é um ponto crucial da programação web.
+- Estrutura:
+``` bash
+//geralmente capturamos o elemento a ser trabalhado em forma de objeto ou seja retorna um objeto
+const element = document.getElemetById ("id do elemento")
+// ou 
+const vetElement = document.getElemetByClassName ("nome da classe que deseja obter os elementos")
+// retorna um vetor com todos elementos da classe (vetor de objetos)
 
+//Evento
+element.addEventListener ("qualEvento" , function (event){
+event.target  = ação a ser realizada ;
+//captura o elemento que disparou o evento 
+```
+ 
 
