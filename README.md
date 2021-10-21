@@ -92,7 +92,7 @@ Diferente do `display: hidden`, este tipo de display oculta também o espaço al
 ------------------------------------------
 - **`display : flex;`**
 Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens.
-------------------------------------------
+
 - flex-direction:
     - flex-direction: row;
     // Os itens ficam em linha
@@ -102,5 +102,19 @@ Torna o elemento um flex container automaticamente transformando todos os seus f
     // Os itens ficam em uma única coluna,      um embaixo do outro.
     - flex-direction: column-reverse;
     // Os itens ficam em uma única coluna,      um embaixo do outro, porém em ordem         reversa: 3, 2 e 1.
+ - flex-wrap:
+    - flex-wrap: nowrap;
+    // Valor padrão, não permite a quebra       de linha.
+    -flex-wrap: wrap;
+    // Quebra a linha assim que um dos          flex itens não puder mais ser              compactado.
+    -flex-wrap: wrap-reverse;
+    // Quebra a linha assim que um dos            flex itens não puder mais ser             compactado. A quebra é na direção         contrária, ou seja para a linha           acima.  
+ - flex-flow
+    - flex-flow: row nowrap;
+    // Coloca o conteúdo em linha e não         permite a quebra de linha.
+    - flex-flow: row wrap;
+    // Coloca o conteúdo em linha e            permite a quebra de linha.
+    - flex-flow: column nowrap;
+    // Coloca o conteúdo em coluna e não        permite a quebra de linha.
 ------------------------------------------
 - **`display : grid;`**
