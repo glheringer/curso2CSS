@@ -118,3 +118,16 @@ Torna o elemento um flex container automaticamente transformando todos os seus f
     // Coloca o conteúdo em coluna e não        permite a quebra de linha.
 ------------------------------------------
 - **`display : grid;`**
+A ideia é que você tem itens individuais que serão exibidos naturalmente em uma grade, e você pode especificar quantos itens serão exibidos nessa grid.
+
+Neste módulo usa-se um modelo de grid, onde se configura trechos de texto para especificar onde queremos o cabeçalho, rodapé, o conteúdo e a barra lateral se existir na página.
+
+Modelo lógico citado:
+```CSS
+grid-template-areas:
+ "header header"
+  "main sidebar"
+   "footer footer";
+   ```
+   
+   
