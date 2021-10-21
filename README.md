@@ -77,5 +77,13 @@ Rowspan —> Mescla linhas
 ------------------------------------------
 ## CSS
 
-###
+### Display Content
+O `display` define um layout para o seu CSS.
 
+- **Opçoes de Display:**
+- `display : block;`
+- `display : inline;`
+- `display : hidden;`
+- `display : none;`
+- **`display : flex;`**
+- **`display : grid;`**
