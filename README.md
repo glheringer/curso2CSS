@@ -146,25 +146,25 @@ Torna o elemento um flex container automaticamente transformando todos os seus f
     - flex-direction: row;
     // Os itens ficam em linha
     - flex-direction: row-reverse;
-    // Os itens ficam em linha reversa, ou      seja 3, 2, 1.
+    // Os itens ficam em linha reversa, ou seja 3, 2, 1.
     -  flex-direction: column;
-    // Os itens ficam em uma única coluna,      um embaixo do outro.
+    // Os itens ficam em uma única coluna, um embaixo do outro.
     - flex-direction: column-reverse;
-    // Os itens ficam em uma única coluna,      um embaixo do outro, porém em ordem         reversa: 3, 2 e 1.
+    // Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.
  - flex-wrap:
     - flex-wrap: nowrap;
-    // Valor padrão, não permite a quebra       de linha.
+    // Valor padrão, não permite a quebra de linha.
     -flex-wrap: wrap;
-    // Quebra a linha assim que um dos          flex itens não puder mais ser              compactado.
+    // Quebra a linha assim que um dos flex itens não puder mais ser compactado.
     -flex-wrap: wrap-reverse;
-    // Quebra a linha assim que um dos            flex itens não puder mais ser             compactado. A quebra é na direção         contrária, ou seja para a linha           acima.  
+    // Quebra a linha assim que um dos flex itens não puder mais ser compactado. A quebra é na direção contrária, ou seja para a linha acima.  
  - flex-flow
     - flex-flow: row nowrap;
-    // Coloca o conteúdo em linha e não         permite a quebra de linha.
+    // Coloca o conteúdo em linha e não permite a quebra de linha.
     - flex-flow: row wrap;
-    // Coloca o conteúdo em linha e            permite a quebra de linha.
+    // Coloca o conteúdo em linha e permite a quebra de linha.
     - flex-flow: column nowrap;
-    // Coloca o conteúdo em coluna e não        permite a quebra de linha.
+    // Coloca o conteúdo em coluna e não permite a quebra de linha.
 ------------------------------------------
 - **`display : grid;`**
 A ideia é que você tem itens individuais que serão exibidos naturalmente em uma grade, e você pode especificar quantos itens serão exibidos nessa grid.
@@ -172,7 +172,7 @@ A ideia é que você tem itens individuais que serão exibidos naturalmente em u
 Neste módulo usa-se um modelo de grid, onde se configura trechos de texto para especificar onde queremos o cabeçalho, rodapé, o conteúdo e a barra lateral se existir na página.
 
 Modelo lógico citado:
-```CSS
+``` CSS
 grid-template-areas:
  "header header"
   "main sidebar"
@@ -180,11 +180,13 @@ grid-template-areas:
    ```
 ------------------------------------------
 ## JavaScript
-    Iniciar com uma tag script no HTML, essa tag precisa de um início `<script>` e um fim `</script>`, ou criar uma pagina .js externa e apenas importá-la usando uma anchor na tag script criada.
+Iniciar com uma tag script no HTML, essa tag precisa de um início `<script>` e um fim `</script>`, ou criar uma pagina .js externa e apenas importá-la usando uma anchor na tag script criada.
+    
 ------------------------------------------
 
 ### Objeto
 Um objeto é qualquer coisa que represente algo mais complexo que os tipos primitivos, os objetos tem os seus próprios dados.
+
 ------------------------------------------
 
 ### Condicional IF
@@ -198,8 +200,9 @@ Um objeto é qualquer coisa que represente algo mais complexo que os tipos primi
         //senão faça isso
     }
 ```
-&& = "e"
-|| = "ou"
+    && = "e"
+    || = "ou"
+
 ------------------------------------------
 ### DOM
 Document Object Model, o HTML funciona em uma estrutura de árvore e uma dessas estruturas mais básica é a classse Document que é derivada da `window.document` e da documente se deriva `document.head`, `document.body` entre outras...
