@@ -8,7 +8,7 @@ HyperText Markup Language, como o próprio nome diz, o HTML é uma linguagem de 
 Tags são instruções na linguagem de marcação, tendo uma marca de início e outra de fim para que o navegador possa renderizar uma página. ( < > , </ > ).
 
 ### Estrutura padrão 
-```HTML
+``` HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +22,7 @@ Tags são instruções na linguagem de marcação, tendo uma marca de início e 
     
 </body>
 </html>
-```
+``` 
 - **Nota**: Os elementos dados entre < > e </ > são as chamadas tags. 
 - Para gerar essa estrutura inicial basta digitar ! no seu editor de texto.
 ------------------------------------------
@@ -52,15 +52,8 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
 ```
 ------------------------------------------
 ### Criando Formulários
-```HTML
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+``` HTML
+
 <body>
     <form> 
         <!-- circuncidar os elementos de form com divs, para colocar em bloco e gerar espaço. -->
@@ -105,7 +98,7 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
     </form>
 </body>
 </html>
-    ```
+```
 ------------------------------------------
 ### Criando Tabelas
  Inicializada com a tag `<table> `e e struturada em Caption (cabeçalho), thead, tbody e tfood. No "thead" são adicionadas linhas `<tr>` e dentro das linhas são adicionadas colunas `<th> `, para a criação de colunas na tabela. Para adicionar dados na tabela usamos o `<td>`.
