@@ -51,6 +51,62 @@ Lista numerada (1,2, 3...), a qual se importa em ordenar. Usa-se a tag < ol > e 
 </ol>
 ```
 ------------------------------------------
+### Criando Formulários
+```HTML
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form> 
+        <!-- circuncidar os elementos de form com divs, para colocar em bloco e gerar espaço. -->
+        <div>
+        <label for="fullName"> FullName</label> <!-- Label é o cabeçalho dentro do input que colocarmos, precisa da propriedade for= para apontar o input. -->
+        </div>
+
+        <div>
+            <input id="fullName" type="text" /> <!-- Type define o tipo de input desejado -->
+        </div>
+
+        <div>
+        <label for="email"> Email</label> 
+        </div>
+
+         <div>
+        <input id="email" type="text" />
+        </div>
+
+        <div>
+            <label for="subject"> Subject</label> 
+        </div>
+
+        <div> <!-- Cria um bota de seleçao de opçoes -->
+            <select id="subject">
+                <option>Job Offer</option>
+                <option>Personal Message </option>
+                <option>Complaint</option>
+        </div>
+
+        <div>
+            <label for="msg"> Message</label> 
+        </div>
+        
+        <div> 
+            <textarea id="msg" rows="4"> </textarea> <!-- Cria uma area de texto para digitacao-->
+        </div>
+
+        <div>
+            <input type="submit" value="Send Mail"> <!-- Botao de envio, nao precisa de label, se poe o texto em value-->
+        </div>
+    </form>
+</body>
+</html>
+    ```
+------------------------------------------
 ### Criando Tabelas
  Inicializada com a tag `<table> `e e struturada em Caption (cabeçalho), thead, tbody e tfood. No "thead" são adicionadas linhas `<tr>` e dentro das linhas são adicionadas colunas `<th> `, para a criação de colunas na tabela. Para adicionar dados na tabela usamos o `<td>`.
   **Legenda:** <br>
