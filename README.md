@@ -169,5 +169,16 @@ element.addEventListener ("qualEvento" , function (event){
 event.target  = ação a ser realizada ;
 //captura o elemento que disparou o evento 
 ```
- 
+------------------------------------------
+### Webpack
+"De maneira simples, Webpack é um empacotador de módulos para aplicações javascript." Pega todos os nosso arquivos .js ou .css e funde-os em um formato que o navegador possa compilar mais facilmente. Ele também transpila o seu código, que é pegar o código e garantir que ele seja válido no maior número de navegadores possível. É necessário baixá-lo via npm.
 
+- Principais comandos:
+    - ./"nomeDaClasse.js"
+        Cria o arquivo formatado com todas suas classes         .js
+    -   ./"nomeDaClasse.js" --mode development
+        Altera o modo de formatação do arquivo para um           modo legível.
+        
+     -   ./"nomeDaClasse.js" --mode watch
+        Altera o arquivo para o modo watch.
+        
